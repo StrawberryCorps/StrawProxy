@@ -1,0 +1,4 @@
+name: StrawProxy
+main: bzh.strawberrycorps.proxy.StrawProxy
+author: Eclixal
+version: 0.0.1
