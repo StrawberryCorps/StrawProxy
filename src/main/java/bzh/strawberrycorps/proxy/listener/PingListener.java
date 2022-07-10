@@ -11,7 +11,7 @@ public class PingListener implements Listener {
     public void onPing(ProxyPingEvent event) {
         ServerPing serverPing = event.getResponse();
         serverPing.setPlayers(new ServerPing.Players(250, serverPing.getPlayers().getOnline(), null));
-        String l1 = "§9» §bStrawBerry §9« §3■ §9» §3[1.16.5] §9«";
+        String l1 = "§9» §bStrawBerry §9« §3■ §9» §3[1.19] §9«";
         String l2 = "§9■ §bGros mangeur de fruits rouges §9■";
         serverPing.setDescription(centerMotd(48+7, l1) + "\n" + centerMotd(48,l2));
         event.setResponse(serverPing);
